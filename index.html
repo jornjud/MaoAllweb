@@ -1,131 +1,133 @@
 <!DOCTYPE html>
 <html lang="th">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>เว็บไซต์สุดเจ๋งของเหมา!</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600&display=swap');
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>เว็บไซต์สุดเจ๋งของเหมา!</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600&display=swap');
 
-        body {
-            font-family: 'Kanit', sans-serif;
-            background-color: #f8f9fa;
-            color: #333;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: flex-start;
-            min-height: 100vh;
-        }
+        body {
+            font-family: 'Kanit', sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            min-height: 100vh;
+        }
 
-        h1 {
-            font-size: 2.5em;
-            margin-top: 20px;
-            color: #4a4a4a;
-        }
+        h1 {
+            font-size: 2.5em;
+            margin-top: 20px;
+            color: #4a4a4a;
+        }
 
-        .container {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            max-width: 1200px;
-            margin-top: 20px;
-            gap: 20px;
-        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            max-width: 1200px;
+            margin-top: 20px;
+            gap: 20px;
+        }
 
-        .website-card {
-            background-color: #fff;
-            border-radius: 12px;
-            padding: 20px;
-            width: 90%; /* Default: Full width on mobile */
-            max-width: 280px; /* Limit width on larger screens */
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            text-align: center;
-            transition: transform 0.2s, box-shadow 0.2s;
-        }
+        .website-card {
+            background-color: #fff;
+            border-radius: 12px;
+            padding: 20px;
+            width: 90%; /* Default: Full width on mobile */
+            max-width: 280px; /* Limit width on larger screens */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
 
-        .website-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
-        }
+        .website-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+          /* เพิ่มกรอบสีส้ม */
+            border: 3px solid #ff9900; 
+        }
 
-        .website-card h2 {
-            font-size: 1.5em;
-            color: #555;
-            margin-bottom: 10px;
-        }
+        .website-card h2 {
+            font-size: 1.5em;
+            color: #555;
+            margin-bottom: 10px;
+        }
 
-        .website-card p {
-            font-size: 1em;
-            color: #888;
-            margin-bottom: 15px;
-        }
+        .website-card p {
+            font-size: 1em;
+            color: #888;
+            margin-bottom: 15px;
+        }
 
-        .website-card a {
-            display: inline-block;
-            padding: 10px 20px;
-            background-color: #a5d8ff;
-            color: #fff;
-            text-decoration: none;
-            border-radius: 8px;
-            font-weight: bold;
-            transition: background-color 0.2s;
-        }
+        .website-card a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #a5d8ff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: background-color 0.2s;
+        }
 
-        .website-card a:hover {
-            background-color: #74c0fc;
-        }
+        .website-card a:hover {
+            background-color: #74c0fc;
+        }
 
-        @media (max-width: 768px) {
-            h1 {
-                font-size: 2em;
-            }
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2em;
+            }
 
-            .website-card {
-                width: 90%; /* Full width on smaller devices */
-            }
-        }
+            .website-card {
+                width: 90%; /* Full width on smaller devices */
+            }
+        }
 
-        @media (min-width: 769px) {
-            .container {
-                gap: 30px;
-            }
-        }
-    </style>
+        @media (min-width: 769px) {
+            .container {
+                gap: 30px;
+            }
+        }
+    </style>
 </head>
 <body>
-    <h1>เว็บไซต์สุดเจ๋งของเหมา!</h1>
+    <h1>เว็บไซต์สุดเจ๋งของเหมา!</h1>
 
-    <div class="container">
-        <div class="website-card">
-            <h2>Thaikey V.8</h2>
-            <p>เข้า/ถอด รหัส 3ภาษา 
-                        #มีดสั้น 
-                        #คมๆ
-                        #ไม่ค่อยคม</p>
-            <a href="https://thaikeyv7.vercel.app/" target="_blank">ลองใช้เลย!</a>
-        </div>
+    <div class="container">
+        <div class="website-card">
+            <h2>Thaikey V.8</h2>
+            <p>เข้า/ถอด รหัส 3ภาษา 
+                        #มีดสั้น 
+                        #คมๆ
+                        #ไม่ค่อยคม</p>
+            <a href="https://thaikeyv7.vercel.app/" target="_blank">ลองใช้เลย!</a>
+        </div>
 
-        <div class="website-card">
-            <h2>Word Spinner</h2>
-            <p>ปั่นคำสลับมั่ว</p>
-            <a href="https://jornjud.github.io/Wordspinner-//" target="_blank">ลองเล่นเลย!</a>
-        </div>
-        
-        <div class="website-card">
-            <h2>Emoji Code</h2>
-            <p>แปลงข้อความเป็น Emoji</p>
-            <a href="https://jornjud.github.io/Emojicode/" target="_blank">แปลงเลย!</a>
-        </div>
+        <div class="website-card">
+            <h2>Word Spinner</h2>
+            <p>ปั่นคำสลับมั่ว</p>
+            <a href="https://jornjud.github.io/Wordspinner-//" target="_blank">ลองเล่นเลย!</a>
+        </div>
+        
+        <div class="website-card">
+            <h2>Emoji Code</h2>
+            <p>แปลงข้อความเป็น Emoji</p>
+            <a href="https://jornjud.github.io/Emojicode/" target="_blank">แปลงเลย!</a>
+        </div>
 
-       <div class="website-card">
-            <h2>QR Code Generator</h2>
-            <p>สร้าง QR Code ง่ายๆ</p>
-            <a href="https://jornjud.github.io/QrKey2/" target="_blank">สร้างเลย!</a>
-        </div>
+       <div class="website-card">
+            <h2>QR Code Generator</h2>
+            <p>สร้าง QR Code ง่ายๆ</p>
+            <a href="https://jornjud.github.io/QrKey2/" target="_blank">สร้างเลย!</a>
+        </div>
 
-    </div>
+    </div>
 </body>
 </html>
